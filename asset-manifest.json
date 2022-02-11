@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SPA-Pages/static/css/main.d089f510.css",
+    "main.js": "/SPA-Pages/static/js/main.60f83260.js",
+    "index.html": "/SPA-Pages/index.html",
+    "main.d089f510.css.map": "/SPA-Pages/static/css/main.d089f510.css.map",
+    "main.60f83260.js.map": "/SPA-Pages/static/js/main.60f83260.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d089f510.css",
+    "static/js/main.60f83260.js"
+  ]
+}
