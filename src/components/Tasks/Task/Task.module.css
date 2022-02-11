@@ -1,0 +1,48 @@
+.task {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.taskPart{
+  display: flex;
+  align-items: center;
+}
+
+.taskDate {
+  margin-left: 10px;
+}
+
+.deleteTask {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.deleteTask:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  .task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taskPart{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .taskPart:nth-child(2) {
+    margin-left: 0;
+  }
+  .taskDate {
+    margin-left: 0px;
+  }
+  .deleteTask{
+    margin-left: 0;
+  }
+}

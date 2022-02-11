@@ -1,0 +1,20 @@
+.tasks {
+    padding: 20px 0 10px 0;
+    min-height: 240px;
+}
+
+.todo-enter {
+    opacity: 0;
+}
+
+.todo-enter-active {
+    opacity: 1;
+    transition: opacity 500ms forwards;
+}
+.todo-exit {
+    opacity: 1;
+}
+.todo-exit-active {
+    opacity: 0;
+    transition: opacity 500ms forwards;
+}
